@@ -78,7 +78,7 @@ if st.sidebar.button("Information about the Model"):
         st.write("Mobilenet_model,Light and Fast: MobileNet is specifically designed for use on mobile devices and applications that require fast solutions. It requires less computational power and memory than some other deep learning models.")
 # Tahmin yap butonu
 if st.button("Guess"):
-    if upload_method == "Download from your computer" and uploaded_image is not None:
+    if upload_method == "Install from your computer" and uploaded_image is not None:
         image = Image.open(uploaded_image)
     elif upload_method == "Install with Internet Connection" and image_url:
         try:
